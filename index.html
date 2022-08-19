@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="javascript.js">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>JavaScript basics</h3>
+    </header>
+    <script>
+        myVar="Gauri Sharma"
+        console.log("gauri");
+        console.log(typeof "gauri");
+        console.log(typeof 10);
+        console.log(typeof true);
+        console.log(myVar.length)
+        console.log(myVar.charAt(1));
+        console.log(myVar.indexOf("i"));
+        console.log(myVar.slice(2,8));
+        console.log(myVar.toUpperCase());
+        console.log(myVar.toLowerCase());
+        console.log(myVar.includes("Ga"));
+        var x=64;
+        var y=64;
+        console.log( x===y);
+        console.log( x>y);
+        console.log( x<=y);
+
+        a=prompt("Enter value of a")
+        b=prompt("Enter value of b")
+        if(a>b)
+        {
+            console.log("a is greater then b")
+        }
+        else if(a<b)
+        {
+            console.log("a is less then b")   
+        }
+        else
+        {
+            console.log("a is equal to b")
+        }
+        
+        for(var i=0;i<5;i++)
+        {
+            // console.log(i);
+            document.write(i+"<br>");
+        }
+        var t=0;
+        while(t<7)
+        {
+            document.write(t+" ");
+            t++;
+        }
+    </script>
+</body>
+</html>
